@@ -4,11 +4,30 @@
   box-sizing: border-box;
 }
 
-.container {
-  padding: 0 15px;
+header {
+  background-color: aqua;
+  padding: 0 30px;
   margin: 0 auto;
   height: 100px;
+}
 
-  /* debug */
-  border: 3px dashed red;
+.header-container {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.header-container * {
+  background-color: goldenrod;
+  width: 20%;
+  padding: 15px;
+}
+
+.nav-header {
+  width: 60%;
+  align-items: center;
+}
+
+span {
+  align-self: center;
 }
