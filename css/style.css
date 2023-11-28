@@ -23,6 +23,7 @@ header {
   background-color: goldenrod;
   width: 20%;
   padding: 15px;
+  border: 2px dashed black;
 }
 
 .nav-header {
