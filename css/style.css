@@ -32,6 +32,11 @@ header {
   align-items: center;
 }
 
+/* MAIN */
+main > section {
+  padding: 3rem 0;
+}
+
 /* SECTION1 */
 .section1 {
   padding: 50px 40px;
