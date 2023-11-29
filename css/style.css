@@ -95,9 +95,28 @@ main > section {
 }
 
 .columns-footer {
-  background-color: aqua;
   margin: 0 auto;
   width: 70%;
   height: 500px;
   border: 2px dashed black;
+  display: flex;
+}
+
+.red-column {
+  background-color: lightcoral;
+  width: 30%;
+  height: 500px;
+  border: 2px dashed black;
+}
+
+.aqua-box {
+  width: 70%;
+  height: 500px;
+  display: flex;
+  background-color: aqua;
+}
+
+.aqua-box .mini-column {
+  width: 25%;
+  border: 2px dashed white;
 }
