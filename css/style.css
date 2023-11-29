@@ -92,6 +92,7 @@ main > section {
 .footer-with-columns {
   padding: 50px 40px;
   background-color: darkslategray;
+  border-bottom: 1px solid white;
 }
 
 .columns-footer {
@@ -119,4 +120,29 @@ main > section {
 .aqua-box .mini-column {
   width: 25%;
   border: 2px dashed white;
+}
+
+#ads-footer {
+  background-color: darkslategray;
+  height: 100px;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+
+#ads-footer .ads-section {
+  width: 65%;
+  height: 60px;
+  background-color: aquamarine;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.miniads,
+.button-ads {
+  padding: 5px 10px;
+  background-color: pink;
+  border: 2px dashed black;
+  height: 30px;
 }
