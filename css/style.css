@@ -87,3 +87,17 @@ main > section {
   height: 500px;
   border: 2px dashed black;
 }
+
+/* FOOTER */
+.footer-with-columns {
+  padding: 50px 40px;
+  background-color: darkslategray;
+}
+
+.columns-footer {
+  background-color: aqua;
+  margin: 0 auto;
+  width: 70%;
+  height: 500px;
+  border: 2px dashed black;
+}
