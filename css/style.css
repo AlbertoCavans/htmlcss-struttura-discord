@@ -79,3 +79,11 @@ main > section {
   flex-basis: 30%;
   border: 2px dashed black;
 }
+
+.ending-square {
+  background-color: green;
+  width: 800px;
+  margin: 0 auto;
+  height: 500px;
+  border: 2px dashed black;
+}
